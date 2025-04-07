@@ -1,14 +1,11 @@
 # Data_projects_TripleTen
-### ✍️ By Cassey Cam  
+# TripleTen_projects
+Projects I worked on while attending the Data Analysis TripleTen Bootcamp.
 
-## 🚀 Dashboard Links  
-Explore my Tableau Public dashboards below:  
 
-🔹 **[Part 1 - Profit & Losses](https://public.tableau.com/views/Superstore_Jesse_Cam/Part1ProfitsLosses?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**  
-*An analysis of profitability and financial performance.*  
-
-🔹 **[Part 2 - Advertising](https://public.tableau.com/shared/BFZ6YQMPP?:display_count=n&:origin=viz_share_link)**  
-*Insights into advertising effectiveness and spending.*  
-
-🔹 **[Part 3 - Return Rate](https://public.tableau.com/views/SuperstoreReturnRate/Part3ReturnedItems?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**  
-*Tracking and analyzing product return rates.*  
+| Project number | Title | Description |
+| :-----------: | ----------- |----------- |
+| 1 | Norbu stress control| The project task was to analyze user data and find possible causes for the company’s low CR and retention rate. |
+| 2 | [Instacart](https://github.com/zarina-perez/TripleTen_projects/tree/main/02-EDA_project) | The project task was to prepare a report that gives insight into the shopping habits of Instacart customers |
+| 3 | A/A/B Test Analysis | The project task was to study the sales funnel and analyze the results of an A/B test for a food startup. |
+| 4 | Machine Learning Customer Interaction Strategies | The project task was to help a chain of fitness clubs develop a customer retention strategy. |
