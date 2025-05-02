@@ -9,19 +9,19 @@ The goal of this project is to complete a report template by incorporating relev
 
 ## Required Sections
 
-### ✅ Project Summary
+### Project Summary
 - All fields in the **“Project Summary”** section must be filled in.
 
-### ✅ Status Summary
+### Status Summary
 - Write a concise summary of **no more than two paragraphs**.
 - Summarize the key insights previously identified.
 - Link the insights back to the **business challenges** mentioned in the project brief.
 
-### ✅ Insights & Visualizations
+### Insights & Visualizations
 - Choose insights that match each **business need** (listed in the last sheet of the dataset).
 - Include appropriate **visuals** for each insight.
   - Copy visuals directly from the dataset spreadsheet.
   - When pasting into the report, select **“Paste unlinked”** in the pop-up window.
 
-### ✅ Style & Formatting
+### Style & Formatting
 - Apply **consistent text styles** throughout the report for clarity and professionalism.
