@@ -1,31 +1,32 @@
-# Project Requirements
+==============================
+        Project Requirements
+==============================
 
-## Overview
-The goal of this project is to complete a report template by incorporating relevant insights and visualizations from the dataset, along with an original written summary. The final report will be submitted as a shareable Google Doc link.
+Overview:
+---------
+The goal of this project is to complete a report template by adding relevant insights and visualizations from the dataset, along with an original written summary. The final report must be submitted as a shareable Google Doc link.
 
-## Submission Guidelines
-- Submit your finished report as a **Google Doc URL**.
-- Ensure the document has the **correct sharing settings** (anyone with the link can view).
+Submission Guidelines:
+----------------------
+- Submit your final report as a **Google Doc URL**
+- Set the sharing permissions so that **anyone with the link can view**
 
-## Required Sections
+Required Sections:
+------------------
 
-### ✅ Project Summary
-- All fields in the **“Project Summary”** section must be filled in.
+1. Project Summary
+   - Fill in all fields in the "Project Summary" section of the template.
 
-### ✅ Status Summary
-- Write a concise summary of **no more than two paragraphs**.
-- Summarize the key insights previously identified.
-- Link the insights back to the **business challenges** mentioned in the project brief.
+2. Status Summary
+   - Write a summary no longer than two paragraphs.
+   - Summarize the insights identified earlier.
+   - Relate these insights back to the business challenges outlined in the project brief.
 
-### ✅ Insights & Visualizations
-- Choose insights that match each **business need** (listed in the last sheet of the dataset).
-- Include appropriate **visuals** for each insight.
-  - Copy visuals directly from the dataset spreadsheet.
-  - When pasting into the report, select **“Paste unlinked”** in the pop-up window.
+3. Insights & Visualizations
+   - Select insights that correspond to each business need (refer to the last sheet in the dataset).
+   - Include one visual for each insight.
+     * Copy the visual from the dataset spreadsheet.
+     * When pasting into the report, choose "Paste unlinked" in the pop-up window.
 
-### ✅ Style & Formatting
-- Apply **consistent text styles** throughout the report for clarity and professionalism.
-
----
-
-Make sure all the required elements are included and presented clearly in your final report before submission.
+4. Style & Formatting
+   - Use consistent text styles throughout the report to ensure a clean, professional appearance.
