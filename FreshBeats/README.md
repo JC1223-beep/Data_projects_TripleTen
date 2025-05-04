@@ -1,84 +1,63 @@
-# Project Status Report – Fresh Beats
+# 🎵 Fresh Beats – User Listening Trends Report
 
 **Report Date:** January 8, 2025  
 **Company:** Fresh Beats  
-**Prepared By:** Cassey Cam
+**Prepared By:** Cassey Cam  
 
 ---
 
-## Status Summary
+## Introduction
 
-- **Rock** is the most popular genre among **free users**.  
-- **Indie** is the leading genre among **paid users**.
-
----
-
-## Insights & Recommendations
-
-### Genre Growth Trends
-
-**Insights:**
-
-- **Pop** and **Indie** are the two genres showing the most consistent growth.
-- Of the two, **Indie** currently leads in popularity and exhibits a stronger upward trend.
-
-**Visual A:**  
-*Add supporting visual/chart here.*
-
-**Recommendation:**
-
-- Increase focus on **Indie** in promotional strategies and content offerings.
-- Leverage the steady growth and current popularity to boost user engagement and retention.
+This report analyzes user listening behavior on the Fresh Beats platform, segmented by account type (free vs. paid), across five music genres: Rock, Pop, Indie, Jazz, and Hip-Hop. The objective is to identify user preferences, observe growth trends in genre popularity, and provide strategic recommendations that can enhance user engagement and drive subscription conversions.
 
 ---
 
-### User Behavior: Free vs. Paid Users
+## Project Overview
 
-**Insights:**
+### What Was Done:
 
-- **Paid users** listen to significantly more tracks than **free users**.
-- While both user groups are growing, **paid user growth** outpaces that of free users.
+- **Collected and analyzed** genre listening data from 2020 to 2023.
+- Segmented the data between **free users** and **paid users**.
+- Identified genre trends over time and measured listening volume.
+- Created visual insights to highlight patterns and growth opportunities.
+- Formulated **data-driven recommendations** for user retention and conversion strategies.
 
-**Visual B:**  
-*Add supporting visual/chart here.*
+### How It Was Done:
 
-**Recommendation:**
-
-- Enhance the feature set and benefits for **paid users** to improve retention.
-- Highlight these benefits to **free users** to encourage upgrade conversions.
-- Promote the **Fresh Beats Premium** program to attract new users and incentivize free users to convert.
-
+- Data was sourced from Fresh Beats’ internal analytics system.
+- Growth and popularity trends were visualized using line and bar charts.
+- Insight categories were grouped based on:
+  - Genre performance.
+  - User behavior differences.
+  - Yearly comparisons.
 ---
 
-### 2023 Listening Habits
+## Key Insights & Recommendations
 
-**Insights:**
+### 1. Indie & Pop Are Leading Growth Genres
+- **Insight:** Indie has surpassed Pop in popularity with steady growth from 2020–2023.
+- **Recommendation:** Prioritize Indie in promotions, playlists, and personalized suggestions.
 
-- In 2023:
-  - **Paid users** preferred **Rock**, **Indie**, and **Pop** genres.
-  - **Free users** mostly listened to **Rock**, followed by **Pop**.
+### 2. Paid Users Are More Active
+- **Insight:** Paid users consistently stream more tracks and have a higher growth rate.
+- **Recommendation:** Enhance exclusive content and premium features to retain this base and entice free users.
 
-**Visual C:**  
-*Add supporting visual/chart here.*
-
-**Recommendation:**
-
-- Curate and promote **Rock** and **Pop** playlists to better engage **free users**.
-- Utilize genre-focused content to increase satisfaction and conversion rates from free to paid tiers.
+### 3. 2023 Genre Preferences by User Type
+- **Insight:** Rock are popular for free users; Indie, Pop, and Rock are popular with paid users.
+- **Recommendation:** Use Rock and Pop to attract and engage free users, with the goal of upgrading them.
 
 ---
 
 ## Conclusion
 
-- **Rock** remains the dominant genre among free users. Further research and experimentation are recommended to convert Rock listeners into paid subscribers.
-- **Indie** shows sustained growth and high popularity among paid users. Optimizing the listening experience for Indie content can enhance loyalty and satisfaction.
-- **Pop** maintains broad appeal across both user groups and should remain a core genre in content strategy.
+Fresh Beats has seen strong, positive trends in Indie and Pop genres, particularly among paid users. Rock remains the dominant genre for free users. Leveraging these insights can significantly improve engagement strategies, inform content curation, and strengthen conversion paths from free to paid users.
 
 ---
 
-## Next Steps *(Optional)*
+## Suggestions for Further Improvement
 
-- Run A/B testing on Indie genre promotions.
-- Develop Rock-themed engagement campaigns targeting free users.
-- Offer referral or upgrade incentives tied to Rock and Pop playlist sharing.
-
+- **Develop genre-based subscription campaigns** (e.g., “Indie Premium Month”).
+- **Introduce loyalty rewards** for frequent listeners of high-growth genres.
+- **Experiment with targeted advertising** based on top genres per user tier.
+- **Run engagement tests** for Rock fans on the free tier to push conversions.
+- **Automate playlist personalization** using listener history and trending data.
