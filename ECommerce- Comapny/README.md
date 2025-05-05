@@ -62,3 +62,8 @@ This project analyzes raw event logs from an e-commerce website to generate key 
 
 ---
 
+## Guidance
+
+1. Open the [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1dzaM5xabaM0hrSSav6KB-hl04Wct0YbIPDj0bEcPSyM/edit?usp=sharing).
+2. Follow the pivot table configurations and formulas outlined in each sheet.
+3. Use the Table of Contents for easy navigation between sections.
