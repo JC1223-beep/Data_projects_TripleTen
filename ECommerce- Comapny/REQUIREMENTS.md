@@ -1,4 +1,4 @@
-# Business Analytics Project – E-commerce Funnel & Cohort Analysis
+# E-commerce Funnel & Cohort Analysis
 
 This project analyzes raw user activity logs from an e-commerce platform to generate key business metrics. It was completed using spreadsheet tools like pivot tables, VLOOKUP, TEXT, and DATEDIF functions.
 
