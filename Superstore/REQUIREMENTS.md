@@ -1,4 +1,4 @@
-# Superstore Return Rate Analysis  
+# Superstore Return Rate Analysis Requriements and Goals
 ### By Cassey Cam
 
 ## Overview
