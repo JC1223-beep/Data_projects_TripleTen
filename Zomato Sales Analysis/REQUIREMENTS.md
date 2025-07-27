@@ -1,51 +1,38 @@
-# Requirements
+# ⚙️ Requirements to Reproduce the Shopify App Marketplace Analysis
 
-This project uses Power BI and requires the following setup:
+This document outlines everything needed to replicate or extend the dashboard used in the final sprint project.
 
 ---
 
-## 🛠 Software
+## Software
 
-- **Power BI Desktop**
-  - Version: October 2023 or later recommended
+- **Microsoft Power BI Desktop**
+  - Recommended Version: October 2023 or later
   - Download: https://powerbi.microsoft.com/desktop/
 
 ---
 
-## Data File
+## Dataset
 
-- `shopify.xlsx`
-  - Includes: apps, apps_categories, categories, reviews
+- `shopify.xlsx` (from publicly scraped Shopify App Store data)
 
----
-
-## 📊 Power BI Configuration
-
-### 1. Data Modeling
-- Create relationship: `Reviews[app_id]` → `Apps[id]` (Many-to-One)
-
-### 2. DAX Columns
-- `helpful_reviews = rating * (1 + helpful_count)`
-- `developer_answered = IF(ISBLANK(developer_reply), 0, 1)`
+**Contains:**
+- `apps`: App metadata
+- `apps_categories`: App to category link
+- `categories`: App categories
+- `reviews`: Ratings, comments, developer replies
 
 ---
 
-## Visuals Used
+## Data Preparation
 
-| Visual Type   | Description                                  |
-|---------------|----------------------------------------------|
-| KPI Card      | Unique apps, average helpful rating          |
-| Line Chart    | Total reviews over time                      |
-| Scatterplot   | Rating vs helpfulness, rating vs dev reply   |
-| Bar Chart     | Developer performance and responsiveness     |
+### Relationships Created:
 
----
+- `Reviews[app_id]` ➝ `Apps[id]`  
+  (Many-to-One relationship)
 
-## ✅ Notes
+### DAX Columns:
 
-- This analysis is based on public data only.
-- All visuals are created in Power BI and exported manually as screenshots.
-
----
-
-
+1. **Helpful Reviews**
+   ```DAX
+   helpful_reviews = rating * (1 + helpful_count)
