@@ -1,67 +1,81 @@
-# Shopify App Store Data Analysis using Power BI
+# 📊 Shopify App Marketplace Analysis (2017–2020)
 
-This project analyzes data scraped from the public Shopify App Store using Power BI. The goal is to understand the key factors that influence the success of Shopify apps based on app attributes, reviews, and developer responses.
+This project is part of a final sprint focused on building a complete data research cycle—from decomposition and planning to dashboard creation and actionable insights.
 
-## Dataset Overview
-
-The data used is from `shopify.xlsx`, which contains the following tables:
-
-- `apps`: Details of the apps listed on the Shopify app store.
-- `apps_categories`: Join table that connects apps with categories.
-- `categories`: Categories assigned to apps (many-to-many relationship).
-- `reviews`: Each review's rating, helpfulness, and developer reply info.
-
-## Power BI Report Structure
-
-The report is structured into three main sections, each built as a separate sheet in Power BI:
+We analyzed publicly scraped data from the Shopify App Store, focusing on **app performance, developer responsiveness, and customer review trends** from 2017 to 2020.
 
 ---
 
-### 🔹 Part 1: App Landscape
+## 🔍 Research Area
 
-Focuses on app distribution and engagement:
-- **KPI Card**: Count of unique apps.
-- **Line Chart**: Sum of reviews over time (by `lastmod` date).
-- **Scatterplot**: Relationship between `reviews_count` and `average_rating`.
+**Primary Focus:**  
+_“Understanding the success factors behind high-performing Shopify apps using customer reviews, app data, and developer behavior.”_
 
----
-
-### 🔹 Part 2: Reviews
-
-Focuses on review quality and developer engagement:
-- Created a calculated column:  
-  `helpful_reviews = rating * (1 + helpful_count)`
-- **Card**: Displays the average value of `helpful_reviews`.
-- **Developer Answered** column:
-  `developer_answered = IF(ISBLANK(developer_reply), 0, 1)`
-- **Scatterplot**: Average rating vs whether the developer responded.
+**Key Questions Explored:**
+- Which apps and developers perform the best?
+- How does developer responsiveness influence review scores?
+- Which app categories and food items are the most popular?
+- Are review trends stable across months and years?
 
 ---
 
-### 🔹 Part 3: App Reviews
+## Hypotheses
 
-Analyzes developer performance:
-- Joined `Reviews` and `Apps` on `app_id` and `id`.
-- **Bar Chart**: Developer vs sum of ratings.
-- **Bar Chart**: Developer vs average helpful review score.
-- **Bar Chart**: Most responsive developers (with `reviews_count > 500`).
+- Apps with **higher developer responsiveness** tend to have **higher average ratings**.
+- Review activity and revenue **fluctuate seasonally**.
+- Certain restaurants and food types consistently dominate in quantity and quality.
 
 ---
 
-## 📌 Key Insights
+## Dashboard Highlights
 
-- Developers that respond to reviews generally have higher average ratings.
-- Some apps have high review volume but low average ratings.
-- Helpful reviews (based on user votes) reveal deeper customer satisfaction.
+### 🔹 KPI Metrics
+- Total Revenue, Total Orders, Average Order Value, Total Quantity per year.
+
+### 🔹 Time-Based Insights
+- Monthly revenue trends from 2017 to 2020.
+- Seasonality observed: Revenue peaks often in July or November.
+
+### 🔹 Developer Performance
+- Top-performing developers by total and average helpful review score.
+- Developer responsiveness positively correlates with ratings.
+
+### 🔹 Restaurant & Food Item Rankings
+- Top 10 restaurants per year based on total revenue.
+- Top 5 food items per year by total quantity sold.
 
 ---
 
-## 📁 File List
+## Screenshots by Year
 
-| File Name     | Description                                 |
-| ------------- | ------------------------------------------- |
-| `README.md`   | This project overview and structure.         |
-| `REQUIREMENTS.md` | Software and dependencies needed.         |
-| `Power BI Dashboard.pdf`    | Dashboard and screenshot of each years      |
+| Year | Overview |
+|------|----------|
+| 2020 | Low order count, revenue declining from March onward. |
+| 2019 | Highest total revenue, major spike in July. |
+| 2018 | Moderate activity with peak in January. |
+| 2017 | Very high order count in Q4, top average order value. |
+
+---
+
+## Key Conclusions
+
+- **Developer Replies Matter**: Apps with developers who respond to reviews earn better ratings.
+- **Revenue Is Seasonal**: There’s a notable increase in revenue mid- and late-year.
+- **Top Food Items Drive Quantity**: Items like *Veg Navratna Korma*, *Chicken Pepper Dry*, and *Baby Corn Shahi* dominate across years.
+- **App Usage Fluctuated During 2020** likely due to external events (e.g., COVID-19), explaining the sharp drop after Q1.
+
+---
+
+## Recommendations
+
+- Shopify app developers should **prioritize responding to user reviews** to improve public perception.
+- Marketing efforts should be **concentrated around July and November** to leverage higher user activity.
+- Future dashboards could incorporate **category segmentation** for even deeper insights (e.g., CRM, logistics, payments).
+
+---
+
+- **Tool Used**: Microsoft Power BI
+- **Duration**: 2-week sprint
+- **Data Source**: Publicly scraped Shopify App Store Data
 
 ---
