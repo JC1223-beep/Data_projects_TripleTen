@@ -4,7 +4,7 @@
 ## Storyboard Links  
 Explore the Tableau Public storyboard and supporting documentation below:
 
-- **[Superstore Return Rates – Tableau Dashboard](https://public.tableau.com/shared/WHZRGS8MJ?:display_count=n&:origin=viz_share_link)**  
+- **[Superstore Return Rates – Tableau Dashboard](https://public.tableau.com/shared/NYWHM64J7?:display_count=n&:origin=viz_share_link)**  
 - **[Graph Descriptions and Presentation Notes – Google Doc](https://docs.google.com/document/d/1J_A0H6PHSFTPBVPgETaHQMb5xLfRqt2XQ1WHFuh1ZwA/edit?usp=sharing)**
 
 ---
